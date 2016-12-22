@@ -1,0 +1,148 @@
+body{
+  font-family: Arial, sans-serif;
+}
+.wrapper{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+/*work in progress*/
+/*header*/
+#header{
+  /*max-width: 1024px;*/
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 100px;
+  clear: both;
+  height: 30px;
+
+}
+
+.user_panel{
+  float: right;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+  .user_panel li{
+    float: left;
+    margin-right: 20px;
+  }
+
+.user_panel img{
+  vertical-align: middle;
+}
+
+.user_panel li a{
+  font-size: 13px;
+  display: block;
+
+}
+  .user_panel li:nth-child(1),
+  .user_panel li:nth-child(2),
+  .user_panel li:nth-child(3),
+  .user_panel li:nth-child(4){
+    opacity: .75;
+  }
+  .user_panel li a:hover{
+    text-decoration: underline;
+  }
+
+.user_panel-menu{
+  background-image: url("../img/rectangles.png");
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+  .user_panel-menu:hover{
+    background-position: 0 16px;
+  }
+
+.user_panel-alert{
+  display: block;
+  background: url("../img/bell.png") center center;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+  .user_panel-alert:hover{
+    background-color: rgb(0, 0, 0);
+  }
+
+.user_panel-userpic img{
+  border-radius: 50%;
+}
+/*Center logo*/
+.center_content{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.center_content img{
+  margin-bottom: 30px;
+  width: 450px;
+}
+
+.main_search-searcharea{
+  width: 500px;
+  height: 24px;
+  font-size: 18px;
+  /*opacity: .75;*/
+  border: 1px solid rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 5px  rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  padding: 5px 20px 5px 20px;
+  background: url("../img/download.gif") no-repeat 500px center;
+}
+
+.main_search-buttonblock button{
+  background-color: #f2f2f2;
+  border: none;
+  font-weight: bold;
+  opacity: .75;
+  padding: 10px;
+}
+  .main_search-buttonblock button:hover{
+    opacity: 1;
+    box-shadow: 0px 0px 2px  rgba(0,0,0,0.7)
+  }
+
+/*footer*/
+#footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f2f2f2;
+}
+  #footer ul li a{
+    color: rgb(102, 102, 102);
+    padding: 10px;
+    font-size: 12px;
+  }
+  #footer ul li a:hover{
+    text-decoration: underline;
+  }
+.footer_left{
+  float: left;
+  margin-left: 2%;
+}
+
+.footer_right{
+  float: right;
+  margin-right: 2%;
+}
+
+.footer_right li,
+.footer_left li{
+  float: left;
+}
+.footer_right,
+.footer_left{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
